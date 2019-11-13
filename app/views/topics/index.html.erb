@@ -32,8 +32,10 @@
             <hr>
             
             <% topic.comments.each do |comment| %>
-
+              <p class="comment-author">
+                <%= comment.user.name %>
               </p>
+              
               <p class="comment-text">
                 <%= comment.content %>
               </p>
