@@ -12,10 +12,11 @@ h1,h2 {
   padding-top: 15px;
   padding-bottom: 15px;
   font-size: 20px;
-  background-color: rgba(0,0,0,0.0);
+  background-color: transparent;
   
   &:hover {
     color:#fff;
+    background-color: rgba(255, 255, 255, .2);
   }
 }
 
